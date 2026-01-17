@@ -1,6 +1,6 @@
 cask "anime1" do
-  version "VERSION_PLACEHOLDER"
-  sha256 :no_check
+  version "0.1.0"
+  sha256 "9dd3b13986ae3546b7c5a62c3059007d9b5d49d8a46e7ad7f2bd7d48180f495d"
 
   url "https://github.com/elfgzp/anime1-desktop/releases/download/v#{version}/anime1-macos-#{version}.dmg"
   name "Anime1"

@@ -6,7 +6,7 @@ This is the official Homebrew tap for [Anime1 Desktop](https://github.com/elfgzp
 
 ```bash
 # Add the tap
-brew tap anime1-desktop/tap
+brew tap elfgzp/homebrew-tap
 
 # Install anime1
 brew install --cask anime1
@@ -23,5 +23,5 @@ brew upgrade anime1
 
 ```bash
 brew uninstall anime1
-brew untap anime1-desktop/tap
+brew untap elfgzp/homebrew-tap
 ```

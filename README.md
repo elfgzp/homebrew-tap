@@ -6,32 +6,28 @@ This is a Homebrew tap containing casks for various applications.
 
 | Name | Description |
 |------|-------------|
-| [anime1](Casks/anime1.rb) | Anime1 Desktop - Anime Browser |
+| [anime1-desktop](Casks/anime1-desktop.rb) | Anime1 Desktop - Anime Browser |
 
-## Installing a Cask
+## Installing
 
 ```bash
 # Add this tap
-brew tap elfgzp/homebrew-tap
+brew tap elfgzp/tap
 
-# Install a specific cask
-brew install --cask anime1
+# Install anime1-desktop
+brew install --cask anime1-desktop
 ```
 
 ## Updating
 
 ```bash
 brew update
-brew upgrade
+brew upgrade --cask anime1-desktop
 ```
 
 ## Uninstalling
 
 ```bash
-brew uninstall anime1
-brew untap elfgzp/homebrew-tap
+brew uninstall --cask anime1-desktop
+brew untap elfgzp/tap
 ```
-
-## Adding New Casks
-
-To add a new cask, create a file in `Casks/` directory following Homebrew's cask format.
